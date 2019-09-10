@@ -1,0 +1,86 @@
+{
+    "trackers": [
+    {
+        "id": 0,
+        "name": "Workout",
+        "image":"Exercise.png",
+        "records": [
+            {
+                "id": 0,
+                "date": "2018-12-01",
+                "tags": ["rough"],
+                "widgetList": [{"type":"Title", "value": "Rough Day"}, {"type":"NoteWidget", "value": "3 squats 60lbs"}]               
+            }, 
+            { 
+                "id": 1,
+                "date": "2018-11-30",
+                "tags": ["progress", "motivation"],
+                "widgetList": [{"type":"Title", "value": "A Little better"}, {"type":"NoteWidget", "value": "4 squats 65lbs"}]
+            },
+            {
+                "id": 2,
+                "date": "2018-11-29",
+                "tags": ["progress"],
+                "widgetList": [{"type":"Title", "value": "Getting the hang of this"}, {"type":"NoteWidget", "value": "5 squats 70lbs"}]
+            },
+            {
+                "id": 3,
+                "date": "2018-11-28",
+                "tags": ["rough"],
+                "widgetList": [{"type":"Title", "value": "Not so great today"}, {"type":"NoteWidget", "value": "3 squats 20lbs"}]
+            }
+        ],
+        "defaultWidgets": {"Title": "Title", "NoteWidget": "NoteWidget", "ImageWidget": "ImageWidget"},
+        "tags": ["rough", "progress", "motivation"],
+        "goals": [{
+            "id": 0,
+            "question": "Did I workout today?",
+            "frequency": "daily",
+            "time": "16:25",
+            "date": ["2018-11-28", "2018-11-29"],
+            "answers": [null, true]
+        }]
+    },
+    {
+        "id": 1,
+        "name": "Weight",
+        "image":"Scale.svg",
+        "records": [
+            {
+                "id": 0,
+                "date": "2018-10-16",
+                "tags": ["reset"],
+                "widgetList": [{"type":"NoteWidget", "value": "160.4lbs"}, {"type":"photo", "value": "photo5.jpg"}]
+            }, 
+            { 
+                "id": 1,
+                "date": "2018-10-18",
+                "tags": ["progress", "feel-good"],
+                "widgetList": [{"type":"NoteWidget", "value": "159.5 lbs"}, {"type":"photo", "value": "photo6.jpg"}]
+            },
+            {
+                "id": 2,
+                "date": "2018-10-25",
+                "tags": [],
+                "widgetList": [{"type":"NoteWidget", "value": "157.3 lbs"}, {"type":"photo", "value": "photo7.jpg"}]
+            },
+            {
+                "id": 3,
+                "date": "2018-10-30",
+                "tags": ["plateau"],
+                "widgetList": [{"type":"NoteWidget", "value": "157.3 lbs"}, {"type":"photo", "value": "photo8.jpg"}]
+            }
+        ],
+        "defaultWidgets": {"NoteWidget": "NoteWidget", "ImageWidget": "ImageWidget"},
+        "tags": ["reset", "progress", "feel-good", "plateau"], 
+        "goals": [{
+            "id": 0,
+            "question": "Did I lift more?",
+            "frequency": "weekly",
+            "time": "14:00",
+            "date":[],
+            "answers":[]
+        }]
+    }]
+}
+
